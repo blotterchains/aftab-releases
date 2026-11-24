@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f4f0" />
+    <meta
+      name="description"
+      content="Meet Aftab: a thoughtful workspace for your databases, SQL, MongoDB, and SSH. Download Aftab for Windows, Linux, or Android."
+    />
+    <title>Aftab — your data, in focus</title>
+    <link rel="icon" type="image/png" href="/assets/aftab-icon.png" />
+    <link rel="preload" href="/assets/aftab-icon.png" as="image" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Aftab home">
+        
+          <div class="header-logo"><img src="/assets/aftab-icon.png" alt="" /></div>
+        
+        <span class="brand-name">aftab<span>.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#features">Why Aftab</a>
+        <a href="#preview">Take a look</a>
+        <a href="#download">Downloads</a>
+      </nav>
+      <a class="header-cta" href="#download">
+        Get Aftab <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <a class="release-pill" id="release-pill" href="https://github.com/blotterchains/aftab-releases/releases/latest">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span>Meet the latest release</span>
+            <span class="release-version" id="hero-version">v1.1.0</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <p class="eyebrow">A calmer way to work with your data</p>
+          <h1 id="hero-title">Your data,<br /><span>in focus.</span></h1>
+          <p class="hero-lede">
+            Every database, one thoughtful workspace. Explore live data, run
+            queries, and reach your servers from desktop or Android.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#download">
+              Find your download <span aria-hidden="true">↓</span>
+            </a>
+            <a class="text-link" href="#preview">Get to know Aftab <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <span>Made for curious minds and the work behind the screen.</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="A preview of Aftab's desktop workspace">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-sticker sticker-top">A little more<br />room to think <span>✳</span></div>
+          <div class="hero-sticker sticker-bottom"><span class="sticker-spark">✳</span> YOUR WORKSPACE, REIMAGINED</div>
+          <div class="app-window hero-window">
+            <div class="window-bar">
+              <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
+              <div class="window-title"><span class="tiny-sun">✳</span> Aftab <span class="window-divider">/</span> Workspace</div>
+              <div class="window-dots" aria-hidden="true">•••</div>
+            </div>
+            <div class="workspace-shell">
+              <aside class="workspace-rail">
+                <div class="rail-logo"><img src="/assets/aftab-icon.png" alt="" /></div>
+                <span class="rail-icon active" aria-label="Home">⌂</span>
+                <span class="rail-icon" aria-label="Databases">▤</span>
+                <span class="rail-icon" aria-label="Console">⌘</span>
+                <span class="rail-icon" aria-label="Terminal">›_</span>
+                <span class="rail-icon" aria-label="Backups">↥</span>
+                <span class="rail-avatar">A</span>
+              </aside>
+              <div class="workspace-main">
+                <div class="workspace-topline">
+                  <span class="crumb">Workspace <span>·</span> Overview</span>
+                  <span class="sync-state"><i></i> All systems ready</span>
+                </div>
+                <div class="welcome-row">
+                  <div>
+                    <span class="screen-kicker">MONDAY, NOVEMBER 24</span>
+                    <h2>Good morning, Alex <span>✳</span></h2>
+                    <p>Your data is right where you left it.</p>
+                  </div>
+                  <span class="new-connection">＋ New connection</span>
+                </div>
+                <div class="screen-stats">
+                  <div class="stat-card">
+                    <span class="stat-label">SAVED CONNECTIONS</span>
+                    <strong>04 <small>connections</small></strong>
+                    <div class="stat-foot"><span class="stat-dot teal"></span> All reachable</div>
+                  </div>
+                  <div class="stat-card">
+                    <span class="stat-label">RECENT ACTIVITY</span>
+                    <strong>12 <small>queries today</small></strong>
+                    <div class="spark-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                  </div>
+                  <div class="stat-card account-stat">
+                    <span class="stat-label">YOUR WORKSPACE</span>
+                    <strong>Just you, <small>in sync</small></strong>
+                    <div class="stat-foot"><span class="stat-dot purple"></span> Private by design</div>
+                  </div>
+                </div>
+                <div class="screen-section-head"><strong>Your connections</strong><span>View all <b>↗</b></span></div>
+                <div class="connection-list">
+                  <div class="connection-item"><span class="engine-logo engine-postgres">P</span><span class="connection-name"><b>Storefront</b><small>PostgreSQL <i>·</i> db.shop.io</small></span><span class="connected">Connected</span><span class="row-arrow">↗</span></div>
+                  <div class="connection-item"><span class="engine-logo engine-mongo">{ }</span><span class="connection-name"><b>Orders</b><small>MongoDB <i>·</i> mongo.shop.io</small></span><span class="connected">Connected</span><span class="row-arrow">↗</span></div>
+                  <div class="connection-item"><span class="engine-logo engine-ssh">›_</span><span class="connection-name"><b>Production server</b><small>SSH <i>·</i> api.shop.io</small></span><span class="connected">Connected</span><span class="row-arrow">↗</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note"><span class="floating-check">✓</span><span><b>Looking good.</b><small>Your connections are ready.</small></span></div>
+        </div>
+      </section>
+
+      <section class="engine-strip" aria-label="Supported databases and services">
+        <div class="engine-strip-inner">
+          <span class="strip-label">EVERYTHING IN ITS RIGHT PLACE</span>
+          <div class="engine-chip"><span class="engine-glyph pg">P</span> PostgreSQL</div>
+          <div class="engine-chip"><span class="engine-glyph my">M</span> MySQL</div>
+          <div class="engine-chip"><span class="engine-glyph mongo-glyph">◉</span> MongoDB</div>
+          <div class="engine-chip"><span class="engine-glyph sqlite-glyph">▤</span> SQLite</div>
+          <div class="engine-chip"><span class="engine-glyph ssh-glyph">›_</span> SSH</div>
+        </div>
+      </section>
+
+      <section class="features section-wrap" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">Less context switching. More getting-things-done.</p>
+          <h2 id="features-title">A good place to<br /><span>get things done.</span></h2>
+          <p>All the tools you need to understand, manage, and move your data—with none of the clutter.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-lavender">
+            <div class="feature-art feature-art-connections" aria-hidden="true">
+              <span class="mini-db mini-db-one">P</span><span class="mini-db mini-db-two">{ }</span><span class="mini-db mini-db-three">▤</span>
+              <span class="feature-line line-one"></span><span class="feature-line line-two"></span>
+              <span class="feature-orbit"></span>
+            </div>
+            <span class="feature-number">01 / CONNECT</span>
+            <h3>All your databases.<br />Finally, together.</h3>
+            <p>Connect PostgreSQL, MySQL, SQLite, MongoDB, and SSH servers in one easy-to-navigate workspace.</p>
+          </article>
+          <article class="feature-card feature-mint">
+            <div class="feature-art feature-art-query" aria-hidden="true">
+              <div class="query-window"><span>storefront.sql</span><code><i>SELECT</i> name, total<br /><i>FROM</i> orders<br /><i>WHERE</i> status = <em>'paid'</em>;</code><span class="query-run">▶ &nbsp; Run query</span></div>
+            </div>
+            <span class="feature-number">02 / EXPLORE</span>
+            <h3>Take a closer<br />look at the details.</h3>
+            <p>Browse tables and collections, edit rows and documents, and run SQL or MongoDB commands with confidence.</p>
+          </article>
+          <article class="feature-card feature-peach">
+            <div class="feature-art feature-art-agent" aria-hidden="true">
+              <div class="agent-orb"><span>✳</span></div>
+              <div class="agent-bubble">Show me the latest<br />paid orders <span>↗</span></div>
+              <div class="agent-answer"><span class="answer-spark">✳</span><span>Found 48 matching rows<br /><b>Ready to explore →</b></span></div>
+            </div>
+            <span class="feature-number">03 / GET INSIGHT</span>
+            <h3>Ask a question.<br />Find your answer.</h3>
+            <p>The Gemini assistant reads your schema to help you search, understand, and shape your next idea.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase section-wrap" id="preview" aria-labelledby="showcase-title">
+        <div class="showcase-heading">
+          <div>
+            <p class="eyebrow">A workspace that feels like yours</p>
+            <h2 id="showcase-title">A closer look<br /><span>around the corner.</span></h2>
+          </div>
+          <p>From deep-dive desktop sessions to a quick check on your phone. The same thoughtful Aftab, wherever work takes you.</p>
+        </div>
+        <div class="showcase-tabs" role="tablist" aria-label="Choose an Aftab preview">
+          <button type="button" class="showcase-tab is-active" id="tab-workspace" role="tab" aria-selected="true" aria-controls="panel-workspace" data-view="workspace">01 <span>Workspace</span></button>
+          <button type="button" class="showcase-tab" id="tab-console" role="tab" aria-selected="false" aria-controls="panel-console" data-view="console">02 <span>SQL console</span></button>
+          <button type="button" class="showcase-tab" id="tab-android" role="tab" aria-selected="false" aria-controls="panel-android" data-view="android">03 <span>On Android</span></button>
+        </div>
+
+        <div class="showcase-panel" id="panel-workspace" role="tabpanel" aria-labelledby="tab-workspace">
+          <div class="showcase-caption"><span><b>01</b> YOUR DATABASE WORKSPACE</span><span>Clear eyes. All your data.</span></div>
+          <div class="app-window showcase-window">
+            <div class="window-bar">
+              <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
+              <div class="window-title"><span class="tiny-sun">✳</span> Aftab <span class="window-divider">/</span> Storefront</div>
+              <div class="window-dots" aria-hidden="true">•••</div>
+            </div>
+            <div class="database-app">
+              <aside class="db-sidebar">
+                <div class="db-sidebar-brand"><img src="/assets/aftab-icon.png" alt="" /><span>aftab<span>.</span></span></div>
+                <span class="db-label">WORKSPACE</span>
+                <div class="db-nav active"><span>⌂</span> Overview</div>
+                <div class="db-nav"><span>▤</span> Databases</div>
+                <div class="db-nav"><span>⌘</span> SQL console</div>
+                <div class="db-nav"><span>›_</span> Terminal</div>
+                <div class="db-nav"><span>✳</span> Assistant</div>
+                <div class="db-label db-label-second">CONNECTIONS <span>＋</span></div>
+                <div class="db-connection"><i class="db-conn-mark pg">P</i> Storefront</div>
+                <div class="db-connection"><i class="db-conn-mark mongo">{ }</i> Orders</div>
+                <div class="db-connection"><i class="db-conn-mark ssh">›_</i> Production</div>
+                <div class="sidebar-profile"><span class="profile-avatar">A</span><span><b>Alex Morgan</b><small>Personal workspace</small></span><span class="profile-more">···</span></div>
+              </aside>
+              <div class="db-content">
+                <div class="db-topline"><span>Databases <b>/</b> Storefront</span><span class="db-top-actions"><i></i> Connected <span>⌕</span> <span>•••</span></span></div>
+                <div class="db-title-row"><div><p class="screen-kicker">POSTGRESQL <span>·</span> DB.SHOP.IO</p><h3>Storefront</h3><p class="db-subline">A quick look at what your data is up to.</p></div><button class="db-light-btn">↻ &nbsp; Refresh</button></div>
+                <div class="db-summary">
+                  <div><small>TABLES</small><b>18 <i>tables</i></b><span>Across your database</span></div>
+                  <div><small>ROWS IN VIEW</small><b>128 <i>rows</i></b><span>In the current table</span></div>
+                  <div><small>LAST CONNECTED</small><b>Just now</b><span><i class="summary-pulse"></i> Connection healthy</span></div>
+                </div>
+                <div class="db-table-head"><span>YOUR TABLES</span><span><span class="table-search">⌕ &nbsp; Find a table</span> &nbsp; ↕</span></div>
+                <div class="data-table">
+                  <div class="table-row table-header"><span>TABLE NAME</span><span>ROWS</span><span>LAST UPDATED</span><span>STATUS</span></div>
+                  <div class="table-row"><span><i class="table-icon">▦</i><b>orders</b></span><span>1,284</span><span>2 minutes ago</span><span class="table-status">● &nbsp; Available</span></div>
+                  <div class="table-row"><span><i class="table-icon">▦</i><b>customers</b></span><span>846</span><span>18 minutes ago</span><span class="table-status">● &nbsp; Available</span></div>
+                  <div class="table-row"><span><i class="table-icon">▦</i><b>products</b></span><span>213</span><span>Yesterday</span><span class="table-status">● &nbsp; Available</span></div>
+                  <div class="table-row"><span><i class="table-icon">▦</i><b>payments</b></span><span>1,096</span><span>Yesterday</span><span class="table-status">● &nbsp; Available</span></div>
+                  <div class="table-row"><span><i class="table-icon">▦</i><b>addresses</b></span><span>732</span><span>Nov 21, 2026</span><span class="table-status">● &nbsp; Available</span></div>
+                </div>
+                <div class="db-footer"><span>Showing 5 of 18 tables</span><span>1 &nbsp; of &nbsp; 4 &nbsp; <b>←</b> &nbsp; <b>→</b></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-sticker"><span>✳</span> Room to see<br />the whole picture.</div>
+        </div>
+
+        <div class="showcase-panel" id="panel-console" role="tabpanel" aria-labelledby="tab-console" hidden>
+          <div class="showcase-caption"><span><b>02</b> SQL, WITH A LITTLE MORE CLARITY</span><span>Your next good question is one query away.</span></div>
+          <div class="console-scene">
+            <div class="console-window">
+              <div class="console-top"><span class="console-led"></span> Storefront <span class="console-path">/ SQL console</span><span class="console-more">···</span></div>
+              <div class="console-toolbar"><span class="console-file">▧ &nbsp; Untitled query <i>⌄</i></span><span>⌘ ↵</span><button>▶ &nbsp; Run query</button></div>
+              <div class="code-area"><span class="line-no">1<br />2<br />3<br />4<br />5<br />6</span><code><i>SELECT</i> customer_name, total, created_at<br /><i>FROM</i> orders<br /><i>WHERE</i> status = <em>'paid'</em><br /><i>ORDER BY</i> created_at <i>DESC</i><br /><i>LIMIT</i> 5;</code></div>
+              <div class="results-bar"><span>RESULTS</span><span>5 rows &nbsp;·&nbsp; 12 ms</span></div>
+              <div class="console-results"><div class="result-row result-head"><span>CUSTOMER</span><span>TOTAL</span><span>STATUS</span><span>CREATED</span></div><div class="result-row"><b>Jamie Chen</b><span>$248.00</span><i>paid</i><span>09:41 AM</span></div><div class="result-row"><b>Riley Park</b><span>$129.50</span><i>paid</i><span>09:28 AM</span></div><div class="result-row"><b>Taylor Reed</b><span>$86.00</span><i>paid</i><span>09:10 AM</span></div></div>
+            </div>
+            <div class="console-aside"><div class="aside-spark">✳</div><span>QUICK THOUGHT</span><h3>Good questions<br />start with a<br /><em>little curiosity.</em></h3><p>Browse schemas, try a query, and see the answer in context. No extra windows required.</p><span class="aside-code">SELECT * FROM your_ideas;</span></div>
+          </div>
+          <div class="showcase-sticker"><span>✳</span> One small query.<br />A much bigger picture.</div>
+        </div>
+
+        <div class="showcase-panel" id="panel-android" role="tabpanel" aria-labelledby="tab-android" hidden>
+          <div class="showcase-caption"><span><b>03</b> AFTAB, RIGHT THERE WITH YOU</span><span>A little room for your data, even on the go.</span></div>
+          <div class="mobile-showcase">
+            <div class="phone-frame">
+              <div class="phone-island"></div>
+              <div class="phone-screen">
+                <div class="phone-status"><span>9:41</span><span>●●● &nbsp; ▰</span></div>
+                <div class="phone-appbar"><span class="phone-brand"><img src="/assets/aftab-icon.png" alt="" /> Aftab</span><span class="phone-action">☼ &nbsp; EN</span></div>
+                <div class="phone-content">
+                  <span class="phone-greeting">YOUR WORKSPACE</span>
+                  <h3>Your data,<br /><em>in focus.</em></h3>
+                  <p>Your connections are all in one place.</p>
+                  <div class="phone-account"><span class="phone-avatar">A</span><span><b>Alex Morgan</b><small>alex@example.com</small></span><i>✓</i></div>
+                  <div class="phone-health"><span>● &nbsp; Storefront is connected</span><span>↗</span></div>
+                  <div class="phone-section-title"><b>Recent connections</b><span>See all →</span></div>
+                  <div class="phone-connection"><span class="phone-db-icon pg">P</span><span><b>Storefront</b><small>PostgreSQL · db.shop.io</small></span><span>→</span></div>
+                  <div class="phone-connection"><span class="phone-db-icon mg">{ }</span><span><b>Orders</b><small>MongoDB · mongo.shop.io</small></span><span>→</span></div>
+                  <div class="phone-connection"><span class="phone-db-icon ssh">›_</span><span><b>Production server</b><small>SSH · api.shop.io</small></span><span>→</span></div>
+                  <div class="phone-bottom-nav"><span class="selected"><b>⌂</b>Home</span><span><b>▤</b>Databases</span><span><b>⌘</b>Console</span><span><b>✳</b>Assistant</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-copy"><span class="phone-copy-tag">SMALL SCREEN. FULL PICTURE.</span><h3>Your workspace,<br /><em>right at your fingertips.</em></h3><p>Browse tables, run SQL, and check in on your servers right from Android. Light or dark mode; your phone's language, too.</p><a href="#download">Find the Android build <span>↗</span></a></div>
+            <div class="mobile-sparkle">✳</div>
+          </div>
+          <div class="showcase-sticker"><span>✳</span> Your workspace,<br />wherever you are.</div>
+        </div>
+      </section>
+
+      <section class="download-section" id="download" aria-labelledby="download-title">
+        <div class="download-inner">
+          <div class="download-copy">
+            <p class="eyebrow">Your next good idea starts here</p>
+            <h2 id="download-title">Make yourself<br /><span>at home.</span></h2>
+            <p>Pick your platform and we’ll point you to the right build. Aftab is free to download, and your workspace stays yours.</p>
+            <div class="download-trust"><span>✳</span> No account needed to get started <i>·</i> Your data stays on your device</div>
+          </div>
+          <div class="download-card">
+            <div class="download-card-top"><span class="download-sun">✳</span><span><b>Choose your Aftab</b><small>One workspace. Your way.</small></span><span class="version-tag" id="download-version">v1.1.0</span></div>
+            <div class="platform-switch" role="group" aria-label="Choose your platform">
+              <button type="button" class="platform-option" data-platform="windows" aria-pressed="false"><span class="platform-icon windows-icon">⊞</span><span><b>Windows</b><small>Desktop</small></span><span class="platform-check">✓</span></button>
+              <button type="button" class="platform-option is-selected" data-platform="linux" aria-pressed="true"><span class="platform-icon linux-icon">▰</span><span><b>Linux</b><small>Desktop</small></span><span class="platform-check">✓</span></button>
+              <button type="button" class="platform-option" data-platform="android" aria-pressed="false"><span class="platform-icon android-icon">◉</span><span><b>Android</b><small>Phone & tablet</small></span><span class="platform-check">✓</span></button>
+            </div>
+            <div class="download-result" id="windows-download-panel" hidden>
+              <div class="download-result-heading"><span>WINDOWS BUILDS</span><a id="windows-release-link" href="https://github.com/blotterchains/aftab-releases/releases/latest" target="_blank" rel="noreferrer">All releases ↗</a></div>
+              <div class="package-list" id="windows-packages">
+                <a class="package-link" href="https://github.com/blotterchains/aftab-releases/releases/latest"><span class="package-ext">.exe</span><span><b>Windows Setup</b><small>64-bit installer (NSIS)</small></span><span class="package-arrow">↓</span></a>
+                <a class="package-link" href="https://github.com/blotterchains/aftab-releases/releases/latest"><span class="package-ext">msi</span><span><b>Windows Installer</b><small>64-bit MSI package</small></span><span class="package-arrow">↓</span></a>
+              </div>
+              <p class="release-meta" id="windows-release-meta">Latest release <b>v1.1.0</b> <span>·</span> Loading release details…</p>
+            </div>
+            <div class="download-result" id="linux-download-panel">
+              <div class="download-result-heading"><span>LINUX BUILDS</span><a id="release-link" href="https://github.com/blotterchains/aftab-releases/releases/latest" target="_blank" rel="noreferrer">All releases ↗</a></div>
+              <div class="package-list" id="linux-packages">
+                <a class="package-link" href="https://github.com/blotterchains/aftab-releases/releases/latest"><span class="package-ext">.deb</span><span><b>Debian / Ubuntu</b><small>64-bit installer</small></span><span class="package-arrow">↓</span></a>
+                <a class="package-link" href="https://github.com/blotterchains/aftab-releases/releases/latest"><span class="package-ext appimage-ext">App</span><span><b>AppImage</b><small>Portable · 64-bit</small></span><span class="package-arrow">↓</span></a>
+                <a class="package-link" href="https://github.com/blotterchains/aftab-releases/releases/latest"><span class="package-ext rpm-ext">rpm</span><span><b>Fedora / openSUSE</b><small>64-bit installer</small></span><span class="package-arrow">↓</span></a>
+              </div>
+              <p class="release-meta" id="release-meta">Latest release <b>v1.1.0</b> <span>·</span> Loading release details…</p>
+            </div>
+            <div class="download-result android-result" id="android-download-panel" hidden>
+              <div class="download-result-heading"><span>ANDROID BUILDS</span><a id="android-release-link" href="https://github.com/blotterchains/aftab-releases/releases/latest" target="_blank" rel="noreferrer">All releases ↗</a></div>
+              <div class="android-availability" id="android-availability">
+                <span class="android-status-icon">↗</span>
+                <span><b>Check the latest release</b><small>Android APKs aren't attached to v1.1.0 yet. We'll link them here as soon as they're published.</small></span>
+              </div>
+              <div class="android-package-list" id="android-packages"></div>
+              <a class="android-check-link" id="android-download-link" href="https://github.com/blotterchains/aftab-releases/releases/latest" target="_blank" rel="noreferrer">Check Android availability <span>↗</span></a>
+              <p class="release-meta" id="android-release-meta">Looking for Android APKs in the latest release…</p>
+            </div>
+            <p class="download-footnote"><span>↗</span> Downloads are hosted on GitHub Releases.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing section-wrap">
+        <div class="closing-mark"><img src="/assets/aftab-icon.png" alt="" /></div>
+        <p>Bring your data a little closer.</p>
+        <a href="#download">Download Aftab <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#" aria-label="Aftab home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="5.2" fill="currentColor" /><path d="M16 3.8v3.5m0 17.4v3.5M3.8 16h3.5m17.4 0h3.5M7.4 7.4l2.5 2.5m12.2 12.2 2.5 2.5m0-17.2-2.5 2.5M9.9 22.1l-2.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" /></svg></span><span class="brand-name">aftab<span>.</span></span></a>
+      <span>Made with care by Deeveh Studio.</span>
+      <a href="https://github.com/blotterchains/aftab-releases" target="_blank" rel="noreferrer">A little more on GitHub ↗</a>
+    </footer>
+  </body>
+</html>
